@@ -150,6 +150,8 @@ h3 {
 p{
     max-width: 65ch;
     margin: 0.5rem auto;
+    font: normal 1rem var(--fonts);
+    line-height: 21.6px;
 }
 
 /* Link Styles */
@@ -209,7 +211,9 @@ fieldset{
     grid-template-columns: 0.25fr 6fr 0.25fr 6fr;
     gap: 1rem;
     margin: 1rem 0;
-    border-color: var(--red);
+    border: 2px solid var(--red);
+    padding: 5.6px 12px 10px 12px;
+    
 }
 
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
